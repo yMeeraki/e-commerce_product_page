@@ -1,0 +1,11 @@
+:root {
+  /* Font */
+  --base-font-percentage: 62.5%;
+  --base-font-size: 1.65rem;
+  --font-family: "Inter", sans-serif;
+
+  /* Color Pallete */
+  --font-primary: #212529;
+  --font-secondary: #868e96;
+  --background: #FFFFE4;
+}
