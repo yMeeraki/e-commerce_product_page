@@ -1,0 +1,12 @@
+.product_gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 50%;
+}
+
+.product_gallery-product {
+  width: 30%;
+  border-radius: 1rem;
+}

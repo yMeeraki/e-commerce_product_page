@@ -4,3 +4,6 @@
 
 /* Components */
 @import "./src/styles/components/_navbar.css";
+@import "./src/styles/components/_main.css";
+@import "./src/styles/components/_product-gallery.css";
+@import "./src/styles/components/_product-detail.css"
