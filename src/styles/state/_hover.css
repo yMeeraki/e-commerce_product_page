@@ -3,6 +3,10 @@
   text-decoration: underline;
 }
 
+.cart:hover, .header_container-user-avatar:hover{
+  cursor: pointer;
+}
+
 .plus:hover,
 .minus:hover {
   background-color: var(--primary);
