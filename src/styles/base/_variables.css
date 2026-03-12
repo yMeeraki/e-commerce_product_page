@@ -7,5 +7,7 @@
   /* Color Pallete */
   --font-primary: #212529;
   --font-secondary: #ffa94d;
-  --background: #FDF4E3 ;
+  --background: #FDF4E3;
+  --primary:#f76707;
+  --secondary: #ced4da;
 }
