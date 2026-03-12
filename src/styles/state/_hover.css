@@ -1,0 +1,17 @@
+.navbar-list_items-links:hover {
+  color: var(--font-primary);
+  text-decoration: underline;
+}
+
+.plus:hover,
+.minus:hover {
+  background-color: var(--primary);
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #d9480f;
+  cursor: pointer;
+}

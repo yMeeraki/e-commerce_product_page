@@ -1,8 +1,14 @@
+.product_details-button {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
 .btn,
 .add-and-sub-btn {
   width: 20rem;
   border: none;
-  padding: 0.5rem 0;
+  padding: 1rem;
   border-radius: 0.5rem;
 }
 
@@ -17,9 +23,18 @@
 .minus {
   background-color: var(--secondary);
   border: none;
+  border-radius: 0.3rem;
   padding: 0.5rem;
 }
 
 .btn {
   background-color: var(--primary);
+}
+
+@media screen and (max-width: 768px) {
+  .product_details-button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }

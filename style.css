@@ -8,3 +8,6 @@
 @import "./src/styles/components/_product-gallery.css";
 @import "./src/styles/components/_product-details.css";
 @import "./src/styles/components/_button.css";
+
+/* State */
+@import "./src/styles/state/_hover.css";

@@ -4,8 +4,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 2rem 3rem;
   background-color: var(--background);
+  border-bottom: .1rem solid var(--primary);
 }
 
 .header_container-navbar {
@@ -31,12 +32,11 @@
 .navbar-list_items-links {
   color: var(--font-secondary);
 }
-.navbar-list_items-links:hover {
-  color: var(--font-primary);
-  text-decoration: underline;
-}
 
 .header_container-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .header_container-user-avatar {
