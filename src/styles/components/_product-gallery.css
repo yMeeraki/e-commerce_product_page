@@ -1,9 +1,6 @@
 .product_gallery-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  padding: 2rem;
+  background-color: blue;
+  flex: 1;
 }
 
 .product_gallery-product {
