@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 50%;
+  padding: 2rem;
 }
 
 .product_gallery-product {
