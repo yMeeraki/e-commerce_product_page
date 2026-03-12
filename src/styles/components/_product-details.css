@@ -44,6 +44,7 @@
 
 .product_details-details > p {
   color: var(--font-secondary);
+  font-weight: 400;
 }
 
 .product_details-prices {
@@ -67,7 +68,7 @@
 
 .discount {
   background-color: var(--font-primary);
-  color: var(--font-secondary);
+  color: var(--font-light);
   text-align: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
@@ -76,5 +77,6 @@
 .old-price {
   color: var(--font-secondary);
   text-decoration: line-through;
+  font-weight: 200;
 }
 

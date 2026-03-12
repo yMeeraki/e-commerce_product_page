@@ -5,9 +5,10 @@
   --font-family: "Inter", sans-serif;
 
   /* Color Pallete */
-  --font-primary: #212529;
-  --font-secondary: #ffa94d;
-  --background: #fdf4e3;
-  --primary: #f76707;
-  --secondary: #ced4da;
+  --background: #fff7ed;
+  --primary: #ff7d1a;
+  --secondary: #f1f3f5;
+  --font-primary: #1f2937;
+  --font-secondary: #6b7280;
+  --font-light:#f8f9fa;
 }

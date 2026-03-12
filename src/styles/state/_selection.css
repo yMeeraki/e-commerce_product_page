@@ -1,0 +1,3 @@
+.product_details-container::selection{
+  background-color: #ffc078;
+}
