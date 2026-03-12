@@ -31,9 +31,9 @@
 .navbar-list_items-links {
   color: var(--font-secondary);
 }
-.navbar-list_items-links:hover{
-   color: var(--font-primary);
-   text-decoration: underline;
+.navbar-list_items-links:hover {
+  color: var(--font-primary);
+  text-decoration: underline;
 }
 
 .header_container-user {
