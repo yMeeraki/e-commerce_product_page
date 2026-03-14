@@ -6,6 +6,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 768px) {
+  .product_gallery {
+    width: 100%;
+  }
+}
+
 .prev,
 .next {
   position: absolute;
