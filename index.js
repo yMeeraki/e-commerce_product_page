@@ -2,7 +2,7 @@ $(document).ready(function () {
   // Responsive Slideshow Gallery using jQuery
   let current = 0;
   let productSlides = $(".product_gallery-slide");
-  console.log(productSlides);
+  let totalProduct = 0;
 
   function showProductImage(index) {
     productSlides.removeClass("active");
@@ -25,5 +25,17 @@ $(document).ready(function () {
       current = productSlides.length - 1;
     }
     showProductImage(current);
+  });
+
+  $(".plus").click(function () {
+    totalProduct++;
+    $("#count").text(totalProduct);
+  });
+
+  $(".minus").click(function () {
+    if (totalProduct > 0) {
+      totalProduct--;
+      $("#count").text(totalProduct);
+    }
   });
 });
