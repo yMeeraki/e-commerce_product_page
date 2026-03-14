@@ -10,6 +10,11 @@
   cursor: pointer;
 }
 
+.thumbnail:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
 .cart:hover, .header_container-user-avatar:hover{
   cursor: pointer;
 }

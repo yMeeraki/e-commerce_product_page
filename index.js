@@ -27,6 +27,11 @@ $(document).ready(function () {
     showProductImage(current);
   });
 
+  $(".thumbnail").click(function(){
+    let index = $(this).index()
+    showProductImage(index)
+  })
+
   $(".plus").click(function () {
     totalProduct++;
     $("#count").text(totalProduct);
