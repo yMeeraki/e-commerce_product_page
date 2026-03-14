@@ -3,6 +3,13 @@
   text-decoration: underline;
 }
 
+.prev:hover,
+.next:hover {
+  background-color: var(--primary);
+  opacity: .8;
+  cursor: pointer;
+}
+
 .cart:hover, .header_container-user-avatar:hover{
   cursor: pointer;
 }
